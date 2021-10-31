@@ -90,8 +90,8 @@ special_mode_mask values:
       <ISPVideo>imx398_snapshot</ISPVideo>
       <CPPPreview>imx398_cpp_preview</CPPPreview>
       <CPPSnapshot>imx398_cpp_snapshot</CPPSnapshot>
-      <CPPCustom>imx398_cpp_custom</CPPCustom>     
-      <CPPFace>imx398_cpp_face</CPPFace> 
+      <CPPCustom>imx398_cpp_custom</CPPCustom>
+      <CPPFace>imx398_cpp_face</CPPFace>
       <CPPVideo>imx398_cpp_video</CPPVideo>
       <CPPLiveshot>imx398_cpp_liveshot</CPPLiveshot>
       <A3Preview>imx398_zsl_preview</A3Preview>
@@ -150,7 +150,7 @@ special_mode_mask values:
       <CPPPreview>imx398_cpp_preview_wchat</CPPPreview>
       <CPPVideo>imx398_cpp_preview_wchat</CPPVideo>
     </ChromatixName>
-    <ChromatixName sensor_resolution_index="2" special_mode_mask="OPPO_SPECIAL">  
+    <ChromatixName sensor_resolution_index="2" special_mode_mask="OPPO_SPECIAL">
       <CPPPreview>imx398_cpp_preview_special</CPPPreview>
       <CPPSnapshot>imx398_cpp_snapshot_special</CPPSnapshot>
     </ChromatixName>
