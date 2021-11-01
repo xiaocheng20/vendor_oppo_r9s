@@ -27,13 +27,11 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r9s/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/oppo/r9s/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/oppo/r9s/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/oppo/r9s/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/oppo/r9s/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/oppo/r9s/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/oppo/r9s/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/oppo/r9s/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/oppo/r9s/proprietary/bin/port-bridge:system/bin/port-bridge \
-    vendor/oppo/r9s/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
     vendor/oppo/r9s/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/oppo/r9s/proprietary/bin/radish:system/bin/radish \
     vendor/oppo/r9s/proprietary/bin/rmt_storage:system/bin/rmt_storage \
@@ -76,13 +74,11 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r9s/proprietary/etc/firmware/a506_zap.mdt:system/etc/firmware/a506_zap.mdt \
     vendor/oppo/r9s/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
     vendor/oppo/r9s/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
-    vendor/oppo/r9s/proprietary/etc/firmware/tas2555_uCDSP.bin:system/etc/firmware/tas2555_uCDSP.bin \
     vendor/oppo/r9s/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/oppo/r9s/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/oppo/r9s/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/oppo/r9s/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/oppo/r9s/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
-    vendor/oppo/r9s/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
     vendor/oppo/r9s/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/oppo/r9s/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/oppo/r9s/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
@@ -96,10 +92,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r9s/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/oppo/r9s/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/oppo/r9s/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/oppo/r9s/proprietary/lib64/libmotext_inf.so:system/lib64/libmotext_inf.so \
-    vendor/oppo/r9s/proprietary/lib64/libqmimotext.so:system/lib64/libqmimotext.so \
-    vendor/oppo/r9s/proprietary/lib64/libtzssm.so:system/lib64/libtzssm.so \
-    vendor/oppo/r9s/proprietary/lib64/sensors.oem.so:system/lib64/sensors.oem.so \
     vendor/oppo/r9s/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/oppo/r9s/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/oppo/r9s/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
@@ -133,7 +125,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r9s/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/oppo/r9s/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
     vendor/oppo/r9s/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    vendor/oppo/r9s/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/oppo/r9s/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/oppo/r9s/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/oppo/r9s/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -201,7 +192,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r9s/proprietary/vendor/lib/libvqzip.so:system/vendor/lib/libvqzip.so \
     vendor/oppo/r9s/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
     vendor/oppo/r9s/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
-    vendor/oppo/r9s/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/oppo/r9s/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/oppo/r9s/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
     vendor/oppo/r9s/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
@@ -298,8 +288,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r9s/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
     vendor/oppo/r9s/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
     vendor/oppo/r9s/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
-    vendor/oppo/r9s/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
-    vendor/oppo/r9s/proprietary/vendor/lib64/liblowi_wifihal_nl.so:system/vendor/lib64/liblowi_wifihal_nl.so \
     vendor/oppo/r9s/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
     vendor/oppo/r9s/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/oppo/r9s/proprietary/vendor/lib64/libmmQSM.so:system/vendor/lib64/libmmQSM.so \
@@ -343,7 +331,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r9s/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/oppo/r9s/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/oppo/r9s/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
-    vendor/oppo/r9s/proprietary/vendor/lib64/libuiblur.so:system/vendor/lib64/libuiblur.so \
     vendor/oppo/r9s/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/oppo/r9s/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     vendor/oppo/r9s/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
@@ -352,7 +339,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r9s/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/oppo/r9s/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
     vendor/oppo/r9s/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
-    vendor/oppo/r9s/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/oppo/r9s/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
     vendor/oppo/r9s/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
     vendor/oppo/r9s/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
@@ -375,7 +361,6 @@ PRODUCT_PACKAGES += \
     cneapiclient \
     com.qti.dpmframework \
     com.qti.location.sdk \
-    com.qualcomm.location.vzw_library \
     com.quicinc.cne \
     dpmapi \
     imscmlibrary \
@@ -394,7 +379,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r9s/proprietary/etc/acdbdata/16017/Hdmi_cal.acdb:system/etc/acdbdata/16017/Hdmi_cal.acdb \
     vendor/oppo/r9s/proprietary/etc/acdbdata/16017/Headset_cal.acdb:system/etc/acdbdata/16017/Headset_cal.acdb \
     vendor/oppo/r9s/proprietary/etc/acdbdata/16017/Speaker_cal.acdb:system/etc/acdbdata/16017/Speaker_cal.acdb \
-    vendor/oppo/r9s/proprietary/etc/acdbdata/16017/workspaceFile.qwsp:system/etc/acdbdata/16017/workspaceFile.qwsp \
     vendor/oppo/r9s/proprietary/etc/acdbdata/16027/Bluetooth_cal.acdb:system/etc/acdbdata/16027/Bluetooth_cal.acdb \
     vendor/oppo/r9s/proprietary/etc/acdbdata/16027/General_cal.acdb:system/etc/acdbdata/16027/General_cal.acdb \
     vendor/oppo/r9s/proprietary/etc/acdbdata/16027/Global_cal.acdb:system/etc/acdbdata/16027/Global_cal.acdb \
@@ -402,7 +386,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r9s/proprietary/etc/acdbdata/16027/Hdmi_cal.acdb:system/etc/acdbdata/16027/Hdmi_cal.acdb \
     vendor/oppo/r9s/proprietary/etc/acdbdata/16027/Headset_cal.acdb:system/etc/acdbdata/16027/Headset_cal.acdb \
     vendor/oppo/r9s/proprietary/etc/acdbdata/16027/Speaker_cal.acdb:system/etc/acdbdata/16027/Speaker_cal.acdb \
-    vendor/oppo/r9s/proprietary/etc/acdbdata/16027/workspaceFile.qwsp:system/etc/acdbdata/16027/workspaceFile.qwsp \
     vendor/oppo/r9s/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/oppo/r9s/proprietary/etc/camera/imx398_chromatix.xml:system/etc/camera/imx398_chromatix.xml \
     vendor/oppo/r9s/proprietary/etc/camera/imx398_sunny_chromatix.xml:system/etc/camera/imx398_sunny_chromatix.xml \
@@ -465,7 +448,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r9s/proprietary/etc/sensors/sensor_def_16027.conf:system/etc/sensors/sensor_def_16027.conf \
     vendor/oppo/r9s/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/oppo/r9s/proprietary/framework/ifaamanager.jar:system/framework/ifaamanager.jar \
-    vendor/oppo/r9s/proprietary/framework/sotermanager.jar:system/framework/sotermanager.jar \
     vendor/oppo/r9s/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/oppo/r9s/proprietary/lib/hw/fingerprint.msm8953.so:system/lib/hw/fingerprint.msm8953.so \
     vendor/oppo/r9s/proprietary/lib/libDocFace.so:system/lib/libDocFace.so \
