@@ -107,6 +107,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r9s/proprietary/vendor/lib/hw/keystore.msm8953.so:system/vendor/lib/hw/keystore.msm8953.so \
     vendor/oppo/r9s/proprietary/vendor/lib/hw/sound_trigger.primary.msm8953.so:system/vendor/lib/hw/sound_trigger.primary.msm8953.so \
     vendor/oppo/r9s/proprietary/vendor/lib/hw/vulkan.msm8953.so:system/vendor/lib/hw/vulkan.msm8953.so \
+    vendor/oppo/r9s/proprietary/vendor/lib/libVDHDRAPI.so:system/vendor/lib/libVDHDRAPI.so \
     vendor/oppo/r9s/proprietary/vendor/lib/libAlacSwDec.so:system/vendor/lib/libAlacSwDec.so \
     vendor/oppo/r9s/proprietary/vendor/lib/libApeSwDec.so:system/vendor/lib/libApeSwDec.so \
     vendor/oppo/r9s/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
