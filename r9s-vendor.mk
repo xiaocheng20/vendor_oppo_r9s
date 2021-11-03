@@ -39,13 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r9s/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/oppo/r9s/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/oppo/r9s/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
-    vendor/oppo/r9s/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
-    vendor/oppo/r9s/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
-    vendor/oppo/r9s/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
-    vendor/oppo/r9s/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
-    vendor/oppo/r9s/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
-    vendor/oppo/r9s/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
-    vendor/oppo/r9s/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/oppo/r9s/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/oppo/r9s/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/oppo/r9s/proprietary/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/etc/cne/wqeclient/ATT/ATT_profile1.xml \
@@ -125,6 +118,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r9s/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/oppo/r9s/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
     vendor/oppo/r9s/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/oppo/r9s/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/oppo/r9s/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/oppo/r9s/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/oppo/r9s/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -349,7 +343,6 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService \
     datastatusnotification \
-    fastdormancy \
     shutdownlistener \
     CNEService \
     QtiTetherService \
@@ -361,7 +354,6 @@ PRODUCT_PACKAGES += \
     cneapiclient \
     com.qti.dpmframework \
     com.qti.location.sdk \
-    com.qualcomm.location.vzw_library \
     com.quicinc.cne \
     dpmapi \
     imscmlibrary \
@@ -380,7 +372,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r9s/proprietary/etc/acdbdata/16017/Hdmi_cal.acdb:system/etc/acdbdata/16017/Hdmi_cal.acdb \
     vendor/oppo/r9s/proprietary/etc/acdbdata/16017/Headset_cal.acdb:system/etc/acdbdata/16017/Headset_cal.acdb \
     vendor/oppo/r9s/proprietary/etc/acdbdata/16017/Speaker_cal.acdb:system/etc/acdbdata/16017/Speaker_cal.acdb \
-    vendor/oppo/r9s/proprietary/etc/acdbdata/16017/workspaceFile.qwsp:system/etc/acdbdata/16017/workspaceFile.qwsp \
     vendor/oppo/r9s/proprietary/etc/acdbdata/16027/Bluetooth_cal.acdb:system/etc/acdbdata/16027/Bluetooth_cal.acdb \
     vendor/oppo/r9s/proprietary/etc/acdbdata/16027/General_cal.acdb:system/etc/acdbdata/16027/General_cal.acdb \
     vendor/oppo/r9s/proprietary/etc/acdbdata/16027/Global_cal.acdb:system/etc/acdbdata/16027/Global_cal.acdb \
@@ -388,7 +379,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r9s/proprietary/etc/acdbdata/16027/Hdmi_cal.acdb:system/etc/acdbdata/16027/Hdmi_cal.acdb \
     vendor/oppo/r9s/proprietary/etc/acdbdata/16027/Headset_cal.acdb:system/etc/acdbdata/16027/Headset_cal.acdb \
     vendor/oppo/r9s/proprietary/etc/acdbdata/16027/Speaker_cal.acdb:system/etc/acdbdata/16027/Speaker_cal.acdb \
-    vendor/oppo/r9s/proprietary/etc/acdbdata/16027/workspaceFile.qwsp:system/etc/acdbdata/16027/workspaceFile.qwsp \
     vendor/oppo/r9s/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/oppo/r9s/proprietary/etc/camera/imx398_chromatix.xml:system/etc/camera/imx398_chromatix.xml \
     vendor/oppo/r9s/proprietary/etc/camera/imx398_sunny_chromatix.xml:system/etc/camera/imx398_sunny_chromatix.xml \
