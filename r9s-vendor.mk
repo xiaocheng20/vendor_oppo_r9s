@@ -681,4 +681,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r9s/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
     vendor/oppo/r9s/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
     vendor/oppo/r9s/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so \
-    vendor/oppo/r9s/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so
+    vendor/oppo/r9s/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
+    vendor/oppo/r9s/proprietary/lib/hw/audio.primary.msm8953.so:system/lib/hw/audio.primary.msm8953.so \
+    vendor/oppo/r9s/proprietary/lib64/hw/audio.primary.msm8953.so:system/lib64/hw/audio.primary.msm8953.so
